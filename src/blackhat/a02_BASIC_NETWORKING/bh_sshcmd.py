@@ -14,4 +14,10 @@ def ssh_command(ip, user, passwd, command):
     return
 
 
-ssh_command('192.168.100.131', 'justin', 'lovesthepython', 'ClientConnected')
+if __name__ == "__main__":
+    ssh_command(
+        ip='hostname',
+        user='username',
+        passwd='password',
+        command='ClientConnected'
+    )
